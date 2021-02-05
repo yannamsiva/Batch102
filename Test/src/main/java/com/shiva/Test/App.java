@@ -10,10 +10,18 @@ public class App
 	{
 		System.out.println("Addition of two numbers :"+(x+y));
 	}
+	void sub(int x,int y)
+	{
+		System.out.println("subtraction of two numbers :"+(x+y));
+	}
+	
     public static void main( String[] args )
     {
     	App demo=new App();
     	demo.add(100,200);
         System.out.println( "Hello World!" );
+   demo.sub(500,100);
+    
     }
+    
 }
